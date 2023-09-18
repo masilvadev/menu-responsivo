@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    span#burguer{
+        display: none;
+    }
+   
+    menu{
+        display: block;
+        padding-left: 5px;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        border: none;
+    }
+
+    main{
+        width: 700px; /*quando aumentar a tela, o main (contem o texto do site) ficar sempre com 700px e não ocupa a tela quase toda. Quando diminuir ela volta a ter os 90vw que tinha antes*/
+    }
+
+    
+}
