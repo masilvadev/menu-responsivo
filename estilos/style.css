@@ -3,7 +3,7 @@
 /*AQUI É PRO MOBILE FIRST*/
 
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: ;
     margin: 0px;
     padding: 0px;
 }
@@ -20,6 +20,7 @@ header{
 header > h1{
     padding: 10px;
     text-align: center;
+    font-size: 1.8em;
 }
 
 menu{
